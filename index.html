@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reynkun AMVs</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #121212;
+        color: white;
+    }
+    header {
+        text-align: center;
+        padding: 50px 20px;
+        background: linear-gradient(90deg, #8A2BE2, #00BFFF);
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+    .stats {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin: 20px 0;
+    }
+    .stat {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .videos {
+        padding: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .video {
+        background: #1e1e1e;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.2s ease;
+    }
+    .video:hover {
+        transform: scale(1.05);
+    }
+    .video iframe {
+        width: 100%;
+        height: 200px;
+        border: none;
+    }
+    .description {
+        padding: 15px;
+    }
+    footer {
+        background: #0b0b0b;
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #888;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>@Reynkun AMVs</h1>
+    <p>Anime AMVs | Dark Aesthetic | Hobby Channel 🐊</p>
+    <div class="stats">
+        <div class="stat">🎥 28 Videos</div>
+        <div class="stat">📺 86 Subscribers</div>
+    </div>
+</header>
+
+<section class="videos">
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/something" title="AMV Example"></iframe>
+        <div class="description">EDIT TRRST - IC3PEAK || CORALINE ✨</div>
+    </div>
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/something2" title="Another AMV"></iframe>
+        <div class="description">Chainsaw Man - Epic Edit</div>
+    </div>
+</section>
+
+<footer>
+    © 2025 Reynkun | All rights reserved.  
+    <br>
+    Visit my <a href="https://www.youtube.com/@reynkun" target="_blank" style="color:#00BFFF;">YouTube Channel</a>
+</footer>
+
+</body>
+</html>
